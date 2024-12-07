@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opacity</title>
+    <style>
+        .card{
+background-color: red;
+
+
+
+color: white;
+
+padding: 30px;
+        }
+        .card1{
+background-color: red;
+
+color: white;
+
+
+padding: 30px;
+        }
+        .card2{
+background-color: red;
+
+color: white;
+
+padding: 30px;
+        }
+        .container{
+            display: flex;
+           gap: 20px;
+            
+
+        }
+        .container:hover .card{
+        opacity: 0.2;
+        filter: blur(3px);
+        cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>filter</h1>
+    </center>
+    <hr>
+    <section class="container">
+        <div class="card">
+            <p>Card heading</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem id minima eligendi aspernatur consequatur minus? Minus vitae iure explicabo. Eligendi voluptatibus nostrum amet quaerat expedita quam suscipit rem quis cumque?</p>
+        </div>
+        <div class="card1">
+            <p>Card heading</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem id minima eligendi aspernatur consequatur minus? Minus vitae iure explicabo. Eligendi voluptatibus nostrum amet quaerat expedita quam suscipit rem quis cumque?</p>
+        </div>
+        <div class="card2">
+            <p>Card heading</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem id minima eligendi aspernatur consequatur minus? Minus vitae iure explicabo. Eligendi voluptatibus nostrum amet quaerat expedita quam suscipit rem quis cumque?</p>
+        </div>
+    </section>
+  
+</body>
+</html>

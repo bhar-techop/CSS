@@ -1,0 +1,58 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.navbar{
+    background-color: grey;
+    /*height:100px;*/
+}
+.navbar>img{
+    height:54px;
+}
+.navbar>ul{
+    list-style-type:none;
+    float: right;
+}
+.navbar>ul>li{
+    display:inline-block;
+    padding:20px;
+}
+.navbar>ul>li>a{
+    color: white;
+    text-decoration: none;
+}
+.navbar>ul>li>:hover{
+    background-color: white;
+}
+.navbar>ul>li:hover a{
+    color:grey;
+}
+.list-maker-position,.list-icon{
+    margin: 50px;
+}
+.list-maker-position>ol>li{
+    background-color: teal;
+    padding: 20px;
+    margin-bottom: 20px;
+    list-style-position: inside;
+}
+.list-maker-position>ol>li>a{
+    color: white;
+    text-decoration: none;
+}
+.list-maker-position>ol>li::marker{
+    color: yellow;
+    font-size: 30px;
+    font-weight: bold;
+}
+/* list icon */
+.list-icon>ul>li{
+    list-style-image: url(../images/placeholder.png);
+}
+/* list short hand */
+.list-shorthand>ul>li{
+    background-color: teal;
+    padding: 20px;
+    margin-bottom: 20px;
+    list-style: decimal inside url(../images/placeholder.png);
+}

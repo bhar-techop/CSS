@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border</title>
+    <style>
+        .container>div{
+            padding: 20px;
+            margin: 20px;
+            /* border: 15px solid orange; */
+            border-width: 15px;
+            border-style: solid;
+            border-color: orange;
+        }
+        .b1{
+            border-image:linear-gradient(orange,deepskyblue)1;
+        }
+        .b2{
+            border-image: repeating-linear-gradient(30deg,teal,orange,deepskyblue)1;
+        }
+        .b3{
+            border-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKNxDRcwGSniKG4aOe1VCEpuDEhpl-SpAVog&s")
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Border image</h1>
+    </center>
+    <hr>
+    <section class="container">
+        <div class="b1">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis nihil ipsum et modi, a laborum esse sequi optio dicta, enim, dolorum sint eligendi eos in qui hic non aperiam autem?
+        </div>
+        <div class="b2">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, voluptatum quam harum alias, saepe doloribus a aspernatur earum doloremque optio voluptas repellendus at recusandae eaque impedit blanditiis deleniti ab veniam?
+        </div>
+        <div class="b3">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis eligendi eos at dicta, illo optio. Nulla, sunt beatae obcaecati ullam dolorum quidem sequi porro impedit molestias provident perspiciatis, ipsam eveniet?
+        </div>0
+    </section>
+</body>
+</html>

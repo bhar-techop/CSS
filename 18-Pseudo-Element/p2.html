@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> PSEUDO-ELEMENT</title>
+<style>
+    center+hr+h2+h2::before{
+        content: "Mr.";
+        text-transform: capitalize;
+        text-decoration: dotted;
+        text-shadow: 1px 2px 3px blue;
+    }
+    center+hr+h2::before{
+        content: "Mr.";
+         text-decoration: overline;
+         text-transform: capitalize;
+         text-shadow: 1px 2px 3px blue;
+    }
+    center+hr+h2+h2+h2::before{
+        content: "Mr.";
+        text-transform: capitalize;
+        text-decoration: line-through;
+        text-shadow: 1px 2px 3px blue;
+
+       
+    }
+   
+    center+hr~h2::after{
+        content: " welcome to css";
+        text-shadow: 1px 2px 1px orange;
+        
+    }
+
+</style>
+</head>
+<body>
+    <center>
+        <h1>::after and ::before</h1>
+    </center>
+    <hr>
+    <h2> John</h2>
+    <h2> Mathew</h2>
+    <h2> Shan</h2>
+
+</body>
+</html>

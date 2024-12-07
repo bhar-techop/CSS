@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEXT</title>
+<style>
+    div{
+        width: 200px;
+        height: 200px;
+        margin: 50px;
+        background-color: #ccc;
+        padding: 20px;
+    }
+    .b1{
+        overflow: auto;/* visible | hidden| clip| scroll| auto */
+    }
+    .b2{
+      white-space: no-wrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+</style>
+</head>
+<body>
+    <center>
+        <h1>text-overflow</h1>
+    </center>
+    <hr>
+
+    <h3>Clip</h3>
+    <div class="b1">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium sed aperiam ex ea eos architecto quisquam libero qui quam accusamus. Numquam veniam deleniti illum deserunt eveniet fuga quibusdam dolore maiores!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia temporibus facere suscipit perferendis. Culpa animi dicta consequuntur odio cupiditate, minima asperiores error enim laborum tenetur inventore voluptate quo eligendi porro.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non tenetur itaque harum modi eligendi vero, labore quia dolorum voluptas, distinctio odit facilis sapiente sequi ullam suscipit aliquam quo laborum in.</p>
+
+        <h3>Ellipsis</h3>
+        <div class="b2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum perferendis id quia obcaecati, voluptatibus aspernatur nihil qui deleniti eaque et repudiandae ipsa, laboriosam iure labore officia? Illum similique quaerat molestiae!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet sequi suscipit, ad aut at nobis id alias aspernatur fuga dolores, non praesentium blanditiis quis. Delectus harum sed veniam cupiditate facilis!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eaque nesciunt sequi facilis quasi quos quia aliquam. Odio voluptatem ex illo impedit odit deserunt delectus. Placeat optio qui eum porro.</p>
+        </div>
+    </div>
+</body>
+</html>

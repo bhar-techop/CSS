@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSEUDO-ELEMENT</title>
+    <style>
+       
+        
+        /* h3+p +p::first-line{
+                color: orangered;
+                font-weight: bold ;
+                font-size: 20px;
+        }
+        center ~ p::first-letter{
+                color: orangered;
+                font-weight: bold ;
+                font-size: 20px;
+        } */
+        center+hr+h3+p+p::first-line{
+            font-family:Arial, Helvetica, sans-serif;
+            font-size:50px;
+           
+               
+                
+        }
+    </style>
+    </head>
+    <body>
+        <center>
+            <h1>CSS Pseudo-elements..!</h1>
+            <p>the CSS pseudo-elements allow you to style the elements or parts of the elements without adding any IDs or classes to them.</p>
+            <p>CSS3 introduced a new double-colon (::) syntax for pseudo-elements to distinguish between them and pseudo-classes.</p>
+            <p><b>selector::pseudo-element { property: value; }</b></p>
+        </center>
+        <hr>
+
+        <h3> ::first-line ::first-letter </h3>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam facilis quia odit vitae velit voluptas numquam nisi eum nemo itaque, et a, laudantium impedit, quis rem pariatur animi quos eius. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde ratione est eaque adipisci provident cum mollitia ea aut eveniet fuga hic molestiae quas, debitis veritatis ullam consequatur aperiam atque nobis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore doloremque autem optio tempore amet inventore quidem facilis minima eligendi aspernatur at voluptatem nostrum repellat sequi nam, nisi ea explicabo veritatis?
+        Velit sunt perspiciatis quibusdam, fugiat rerum modi, eius sit libero vel voluptas at error illo! Amet quam asperiores deleniti aspernatur numquam laborum quidem obcaecati deserunt, ipsam, labore voluptatibus exercitationem eum?</p>
+     
+    
+           
+        
+ 
+
+</body>
+</html>

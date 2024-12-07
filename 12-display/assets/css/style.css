@@ -1,0 +1,29 @@
+section{
+    background-color: lightgray;
+    padding: 20px;
+}
+div{
+    /* height: 200px;
+    width: 200px; */
+    margin: 20px;
+    color: #ffffff;
+    padding: 20px;
+    background-color: gray;
+    text-align: center;
+}
+.container1{
+    display: block;
+}
+.container2{
+    display: flex;
+}
+.container3{
+    display: inline-flex;
+}
+.container4>ul>li{
+    background-color: gray;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}

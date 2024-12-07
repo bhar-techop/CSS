@@ -1,0 +1,105 @@
+@media (max-width: 1024px) {
+    .banner > div {
+        width: 100%;
+    }
+
+    .card, .news {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    footer {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+
+.banner>div>h1{
+    width: 100%;
+    font-size: 30px;
+}
+    .banner > div {
+        width: 100%;
+    }
+
+   
+
+    .banner > div > p {
+        font-size: 16px;
+    }
+
+    .card, .news {
+        grid-template-columns: 1fr;
+    }
+
+    footer {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 480px) {
+    .banner {
+        padding: 15px;
+        grid-template-columns: 1fr; 
+    }
+
+    .banner > div {
+        width: 100%;
+    }
+
+    .banner > div > h1 {
+        font-size: 24px; 
+    }
+
+    .banner > div > p {
+        font-size: 14px; 
+    }
+
+    .card, .news {
+        grid-template-columns: 1fr; 
+        gap: 10px; 
+    }
+
+    footer {
+        grid-template-columns: 1fr; 
+        text-align: center; 
+    }
+
+    footer nav {
+        flex-direction: column; 
+        gap: 5px;
+    }
+
+    footer p {
+        font-size: 12px; 
+    }
+}
+
+
+@media (max-width: 254px) {
+    .banner > div > h1 {
+        font-size: 18px;
+        line-height: 1.2; 
+        width: 100%;
+    }
+
+    .banner > div > p {
+        font-size: 12px; 
+        width: 100%;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    header nav a {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    .card > div, .news > div {
+        padding: 10px;
+        width: 100%;
+    }
+}

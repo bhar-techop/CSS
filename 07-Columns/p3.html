@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLUMN</title>
+    <style>
+        p{
+            text-align: justify;
+            margin: 20px;
+            columns: 3;
+            column-rule: 4px solid black;
+            column-gap: 50px;
+        }
+        .b1>p{
+            column-fill: auto;
+        }
+        .b2>p{
+            column-fill: balance;
+        }
+        .b3{
+        column-count: 3;
+        }
+        .b3>h1{
+            column-span:all;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Column-fill,columns,column-rule</h1>
+    </center>
+    <hr>
+
+    <section class="container">
+        <div class="b1">
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum atque reiciendis nihil fugiat, blanditiis molestiae molestias dolorem cupiditate provident vero rem eius quo repellendus corrupti officiis nam alias iure in. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit perferendis dolorum quo perspiciatis quidem, consectetur deleniti. Sequi, veniam sit! Tenetur, ipsum deserunt perferendis maxime iusto velit dicta rem vitae nisi!</p>
+        </div>
+        <div class="b2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quam quasi doloribus aliquid qui iusto voluptates odio quidem molestiae molestias consequatur, ab similique eveniet porro sapiente maxime tempore voluptas aperiam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quia ipsam vel. Est maiores qui eius, sit nihil ducimus molestias dolore, illum, quo sapiente omnis voluptatibus magni possimus consequuntur doloremque?</p>
+        </div>
+        <div class="b3">
+            <h1>COLUMN SPAN EXAMPLE  COLUMN SPAN EXAMPLE COLUMN SPAN EXAMPLE</h1>
+            <i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut culpa hic odit et accusantium, velit ut, quidem eum quasi recusandae facilis consequuntur reiciendis, quae laboriosam dignissimos nostrum aliquid libero doloremque?</i>
+        </div>
+    </section>
+</body>
+</html>
